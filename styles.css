@@ -1,0 +1,168 @@
+/*Style sheet for coolpage*/
+
+	body{
+		font-family: "Times New Roman", "Courier New" ;
+		display: flex;
+		flex-direction: column;
+		
+		}
+		
+	.header{
+		background-color: #1F2937;
+		color: #F9F8F8;
+		width: 100%;
+	
+		
+		}
+		
+	.topbar{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		gap: 30px;
+		margin-bottom: 25px;
+			
+ 		}
+		
+	.headerlink{
+		list-style-type: none;
+		display: flex;
+		margin: 0;
+		padding: 0;
+		gap: 30px;
+		}
+	
+	.mainofhead{
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		gap: 30px; 
+		margin-bottom: 30px;
+		/*display: flex;
+		justify-content: space-between;
+		align-items: center;
+		border-style: solid;
+		border-color: red;*/
+		}
+		
+	.maincontent{
+		display: flex;
+		flex-direction: column;
+		/*border-style: dotted;*/
+		}	
+		
+	.mainphoto{
+			/*border-style: solid;
+			border-color: blue; */
+			}
+			
+	.secondarycontent{
+			background-color: white;
+			text-align: center;
+			justify-content: center;
+			margin-top: 30px;			
+			height: 250px;
+			width: 100%;
+
+		
+		}
+	
+	.contentcontainer{
+		  display: flex;
+		  align-items: center;
+		  justify-content: center;
+		  margin-top: 30px;
+		  gap: 110px;
+			align-items: baseline;
+		}
+		
+	/*.contentblocks{
+			list-style-type: none;
+			display: flex;
+			border-style: solid;
+			justify-content: space-around;
+			/*justify-content: center;
+			border-color: red;
+		*/
+			}
+	.info{
+			list-style-type: none;
+			display: flex;
+			justify-content: space-around;
+			margin-top: 30px;
+			/*justify-content: center;*/
+			  /*max-width: 100px;*/
+		}
+
+	.text{
+		font-size: 12px;
+		margin-top: 10px;
+		max-width: 150px;
+
+		}
+		
+	/*.info, .text{
+		border-style: solid;
+			border-color: blue;
+			border-radius: 25px;
+		
+		}*/
+		
+		.quote{
+			height: 250px;
+			width: 100%;
+			display: flex;
+			background-color: gray;	
+			content-align: center;
+			justify-content: center;
+			}
+		
+		.quotewords{
+			max-width: 600px;
+			margin-top: 30px;
+			text-align: center;
+			font-size: 25px;
+			}
+			
+		.quotename{
+			font-size: 28px;
+			}	
+			
+		.foot{
+			background-color: white;
+			width: 100%;
+			height: 130px;
+			display: flex;
+			content-align: center;
+			justify-content: center;
+			align-items: baseline;
+			}
+			
+		.signupbox{
+				background-color: #3882F6;
+				border-radius: 25px;
+				margin-top: 30px;
+				margin-bottom: 30px;
+				width: 80%;
+				display: flex;
+				content-align: center;
+				justify-content: space-between;
+				padding: 20px;
+				}
+				
+		.signup{
+				margin-top: 20px;
+			}
+			
+		.button{
+			background-color: blue;
+			color: white;
+			padding: 20px 32px;
+			text-align: center;
+			text-decoration: none;
+			font-size: 16px;
+			margin: 4px 2px;
+			cursor: pointer;
+			border-radius: 25px;
+			
+			}
